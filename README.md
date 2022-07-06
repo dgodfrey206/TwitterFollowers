@@ -16,7 +16,7 @@ This is what you'll need to do if you don't have them:
 
 ## `config.yaml`
 
-You have the option of saving the files as a CSV or a regular text file.
+You have the option of saving the files as a CSV and/or as a regular text file. This is also where you will provide your bearer token.
 
 ## Getting Started
 
