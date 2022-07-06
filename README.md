@@ -20,7 +20,7 @@ You have the option of saving the files as a CSV and/or as a regular text file. 
 
 ## Getting Started
 
-You will need a Twitter API Bearer token to send to the `config.yaml` file. Go to ![](https://developer.twitter.com) and sign up using your existing Twitter account. After verifying your account and following the steps you'll find your API key, API secret, and Bearer token.
+You will need a Twitter API Bearer token to send to the `config.yaml` file. Go to ![the Twitter Developer's site](https://developer.twitter.com) and sign up using your existing Twitter account. After verifying your account and following the steps you'll find your API key, API secret, and Bearer token.
 
 Inside `config.yaml`, copy and paste your bearer token. You'll then be able to run the script.
 
