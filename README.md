@@ -38,7 +38,3 @@ Inside `config.yaml`, copy and paste your bearer token. You'll then be able to r
 	13058232,Noah,noaheverett
 	16895274,Science Channel,ScienceChannel
 	43815496,Ryan Higa,TheRealRyanHiga
-
-	john@linux:~$ cat example_followers.csv
-
-	
