@@ -14,6 +14,10 @@ This is what you'll need to do if you don't have them:
 
 	pip3 install pandas pyyaml requests
 
+## `config.yaml`
+
+You have the option of saving the files as a CSV or a regular text file.
+
 ## Getting Started
 
 You will need a Twitter API Bearer token to send to the `config.yaml` file. Go to ![](https://developer.twitter.com) and sign up using your existing Twitter account. After verifying your account and following the steps you'll find your API key, API secret, and Bearer token.
@@ -21,6 +25,7 @@ You will need a Twitter API Bearer token to send to the `config.yaml` file. Go t
 Inside `config.yaml`, copy and paste your bearer token. You'll then be able to run the script.
 
 	john@linux:~$ python3 followers_following.py 
+
 	Enter a twitter profile username: example
 	Looking up user 'example'.
 	Found user example with id 1234567.
@@ -33,3 +38,7 @@ Inside `config.yaml`, copy and paste your bearer token. You'll then be able to r
 	13058232,Noah,noaheverett
 	16895274,Science Channel,ScienceChannel
 	43815496,Ryan Higa,TheRealRyanHiga
+
+	john@linux:~$ cat example_followers.csv
+
+	
