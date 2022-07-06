@@ -24,13 +24,13 @@ You will need a Twitter API Bearer token to send to the `config.yaml` file. Go t
 
 Inside `config.yaml`, copy and paste your bearer token. You'll then be able to run the script.
 
-	john@linux:~$ python3 followers_following.py 
+        python3 followers_following.py
 
 	Enter a twitter profile username: example
 	Looking up user 'example'.
 	Found user example with id 1234567.
 
-	john@linux:~$ cat example_following.csv
+	cat example_following.csv
 	
 	id,name,username
 	16190898,Ryan Seacrest,RyanSeacrest
