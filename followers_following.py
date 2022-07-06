@@ -97,7 +97,7 @@ if __name__ == "__main__":
     req_session.headers.update(headers)
 
     twitter_profile = str(input("Enter a twitter profile username: ")).lstrip('@')
-    print(f"Looking up user '{twitter_profile}'.")
+    print(f"Looking up user '{twitter_profile}'...")
     response_user_by_username = req_session.get(find_user_by_username(twitter_profile))
     user_id = parse_user_by_username(response_user_by_username)
     response_user_followers_df = get_responses_paginated(get_users_followers(user_id), req_session)
