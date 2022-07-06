@@ -1,7 +1,7 @@
 # TwitterFollowers
 A Python script for generating the followers and followings of an inputted user. Returns the data as a CSV.
 
-# Requirments
+# Requirements
 
 The following are required to run this script:
 
@@ -10,7 +10,7 @@ The following are required to run this script:
 - PyYAML (6.0)
 - Requests (2.26.0)
 
-    pip3 install pandas pyyaml requests
+	pip3 install pandas pyyaml requests
 
 # Getting Started
 
