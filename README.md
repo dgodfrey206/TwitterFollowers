@@ -24,7 +24,7 @@ You will need a Twitter API Bearer token to send to the `config.yaml` file. Go t
 
 Inside `config.yaml`, copy and paste your bearer token. You'll then be able to run the script.
 
-        python3 followers_following.py
+	python3 followers_following.py
 
 	Enter a twitter profile username: example
 	Looking up user 'example'.
