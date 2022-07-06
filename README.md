@@ -32,4 +32,4 @@ Inside `config.yaml`, copy and paste your bearer token. You'll then be able to r
 
 	cat example_following.csv
 	
-![](https://gist.github.com/dgodfrey206/7767d176f296bd17c5c67c32ebc37ce1)
+![](https://gist.githubusercontent.com/dgodfrey206/7767d176f296bd17c5c67c32ebc37ce1/raw/2aed911c25213b562000f926c1d8756dbe2f42e9/followings.csv)
