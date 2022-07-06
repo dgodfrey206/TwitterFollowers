@@ -1,7 +1,7 @@
 # TwitterFollowers
 A Python script for generating the followers and followings of an inputted user. Returns the data as a CSV.
 
-## Requirements
+## Dependencies
 
 The following are required to run this script:
 
