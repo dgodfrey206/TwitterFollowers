@@ -96,9 +96,7 @@ if __name__ == "__main__":
     headers = create_headers(bearer_token)
     req_session.headers.update(headers)
 
-    twitter_profile_url = str(input("Enter a twitter profile url: "))
-    twitter_profile_url = twitter_profile_url.split('/')
-    twitter_profile = twitter_profile_url[-1]
+    twitter_profile = str(input("Enter a twitter profile username: ")).lstrip('@')
     print(f"Looking up user '{twitter_profile}'.")
     response_user_by_username = req_session.get(find_user_by_username(twitter_profile))
     user_id = parse_user_by_username(response_user_by_username)
